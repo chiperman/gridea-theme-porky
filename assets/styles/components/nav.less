@@ -1,0 +1,120 @@
+.nav-bar {
+    .menu-container {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 16px;
+
+        a.home {
+            font-size: 16px;
+            padding: 8px 16px;
+            color: #000;
+            float: left;
+        }
+
+        .home-icon {
+            height: 24px;
+            width: 24px;
+            vertical-align: middle;
+        }
+
+        span {
+            vertical-align: middle;
+        }
+
+        .home:hover {
+            background-color: #F3F4F6;
+            border-radius: 5px;
+        }
+
+        a.menu {
+            margin-right: 8px;
+            font-size: 16px;
+            padding: 8px 16px;
+            color: #1D4ED8;
+        }
+
+        a:hover {
+            color: #1D4ED8;
+        }
+
+        a.rss {
+            font-size: 16px;
+            padding: 8px 16px;
+            border-radius: 5px;
+            color: #BE185D;
+            background-color: #FDF2F8;
+        }
+
+        .nav-rss {
+            float: right;
+        }
+
+        .nav-menu {
+            padding: 8px 0px;
+            float: right;
+        }
+
+        .menu:hover {
+            background-color: #EFF6FF;
+            border-radius: 5px;
+        }
+
+        .rss:hover {
+            background-color: #FCE7F3;
+        }
+    }
+}
+
+
+@media (max-width: 600px) {
+    .nav-bar {
+
+        .menu-container {
+
+            a.menu,
+            a.rss {
+                padding: 8px 8px;
+            }
+
+            .home-title,
+            .rss-title {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .nav-bar {
+        .menu-container {
+            a.home {
+                color: #fff;
+            }
+
+            .home-icon path {
+                fill: #1a1a1a;
+            }
+
+            a.menu {
+                color: #175bb7;
+            }
+
+            .menu:hover {
+                background-color: #373737;
+            }
+
+            .home:hover {
+                background-color: #373737;
+            }
+
+
+            a.rss {
+                background-color: #e7b0ce;
+            }
+
+            .rss:hover {
+                background-color: #e494c0;
+            }
+        }
+    }
+}

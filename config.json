@@ -1,0 +1,103 @@
+{
+  "name": "porky",
+  "version": "0.1.0",
+  "author": "chiperman",
+  "customConfig": [{
+    "name": "valine",
+    "label": "是否开启 valine 评论系统",
+    "group": "valine评论系统",
+    "type": "switch",
+    "value": false,
+    "note": "启用 valine 评论系统，需先关闭 Gridea 自带的评论系统开关。"
+  },
+  {
+    "name": "APP_ID",
+    "label": "APP_ID",
+    "group": "valine评论系统",
+    "type": "input",
+    "value": "",
+    "note": "从 Leancloud 上获得的 APP_ID"
+  },
+  {
+    "name": "APP_KEY",
+    "label": "APP_KEY",
+    "group": "valine评论系统",
+    "type": "input",
+    "value": "",
+    "note": "从 Leancloud 上获得的 APP_KEY"
+  },
+  {
+    "name": "avatar",
+    "label": "评论者头像",
+    "group": "valine评论系统",
+    "value": "",
+    "type": "select",
+    "options": [
+      {
+        "label": "Gravatar 官方图形",
+        "value": ""
+      },
+      {
+        "label": "神秘人(一个灰白头像)",
+        "value": "mp"
+      },
+      {
+        "label": "抽象几何图形",
+        "value": "identicon"
+      },
+      {
+        "label": "小怪物",
+        "value": "monsterid"
+      },
+      {
+        "label": "用不同面孔和背景组合生成的头像",
+        "value": "wavatar"
+      },
+      {
+        "label": "八位像素复古头像",
+        "value": "retro"
+      },
+      {
+        "label": "一种具有不同颜色、面部等的机器人",
+        "value": "robohash"
+      },
+      {
+        "label": "不显示头像",
+        "value": "hide"
+      }
+    ],
+    "note": "可在 https://valine.js.org/avatar.html 页面查看详情"
+  },
+  {
+    "name":"github",
+    "label":"github",
+    "group":"社交",
+    "value": "",
+    "type": "input",
+    "note": "链接地址"
+  },
+  {
+    "name": "twitter",
+    "label": "Twitter",
+    "group": "社交",
+    "value": "",
+    "type": "input",
+    "note": "链接地址"
+  },
+  {
+    "name": "instagram",
+    "label": "instagram",
+    "group": "社交",
+    "value": "",
+    "type": "input",
+    "note": "链接地址"
+  },
+  {
+    "name": "telegram",
+    "label": "telegram",
+    "group": "社交",
+    "value": "",
+    "type": "input",
+    "note": "链接地址"
+  }]
+}

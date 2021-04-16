@@ -1,0 +1,30 @@
+<html>
+
+<head>
+  <%- include('./includes/head', { siteTitle: themeConfig.siteName }) %>
+  <style>
+    #vcomments {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <div class="main-content">
+      <%- include('./includes/nav') %>
+
+      <%- include('./includes/header') %>
+
+      <%- include('./includes/post-list') %>
+
+      <%- include('./includes/pagination') %>
+
+      <%- include('./includes/footer') %>
+
+      <%- include('./includes/valine') %>
+    </div>
+  </div>
+</body>
+
+</html>

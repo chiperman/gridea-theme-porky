@@ -1,0 +1,35 @@
+.current-tag-container {
+
+  .tags {
+    width: fit-content;
+    margin: 30px auto;
+    background-color: #DBEAFE;
+    padding: 4px 8px;
+    color: @tag-color;
+    border-radius: 5px;
+
+    .tag-icon {
+      height: 24px;
+      width: 24px;
+      vertical-align: middle;
+    }
+
+    span {
+      vertical-align: middle;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 18px;
+      margin: 0 0 0 4px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .current-tag-container {
+    .tags {
+      margin: 5px auto;
+    }
+  }
+}
