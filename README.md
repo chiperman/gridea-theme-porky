@@ -6,9 +6,11 @@ porky 是一款极简设计、干净、响应式的博客主题。
 
 本主题预览：[网站](!https://chiperman.github.io/)
 
-![porky-light](https://cdn.jsdelivr.net/gh/chiperman/Blog-photos@master/img/2021/porky-light.png)
+![porky-light](https://cdn.jsdelivr.net/gh/chiperman/Photos-storage@master/porky/porky-light.png)
 
-![porky-dark](https://cdn.jsdelivr.net/gh/chiperman/Blog-photos@master/img/2021/porky-dark.png)
+![porky-dark](https://cdn.jsdelivr.net/gh/chiperman/Photos-storage@master/porky/porky-dark.png)
+
+![porky-dark](https://cdn.jsdelivr.net/gh/chiperman/Photos-storage@master/porky/mobile.jpg)
 
 ## 🔧安装方法
 
@@ -37,6 +39,7 @@ git pull origin master
 - 支持社交功能
 - 支持亮色 / 暗色模式自动切换
 - 支持移动端页面适配
+- 支持 哔哩哔哩 `<iframe>` 标签
 
 ## 📜待办
 
