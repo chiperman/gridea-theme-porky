@@ -4,7 +4,7 @@ porky 是一款极简设计、干净、响应式的博客主题。
 
 主要满足主要满足个人使用。
 
-本主题预览：[网站](https://chiperman.github.io/)
+本主题预览：[网站](!https://chiperman.github.io/)
 
 ![porky-light](https://cdn.jsdelivr.net/gh/chiperman/Photos-storage@master/porky/porky-light.png)
 
@@ -51,4 +51,4 @@ git pull origin master
 
 ## 📎参考
 
-主题参考 [spencerwoo 的博客](https://blog.spencerwoo.com/)
+主题参考 [spencerwoo 的博客](!https://blog.spencerwoo.com/)
