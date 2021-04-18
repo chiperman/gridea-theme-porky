@@ -74,10 +74,8 @@
     .post-content {
       a {
         color: @main-color;
-        transition: all 0.3s;
 
         &:hover {
-          color: @dark-main-color;
           border-bottom: 1px dotted @dark-main-color;
         }
       }
@@ -276,12 +274,36 @@
       }
 
       .post-content {
+        a {
+          color: #216656;
+
+          &:hover {
+            border-bottom: 1px dotted #216656;
+          }
+        }
 
         color: #888888;
 
         img {
           box-shadow: none;
         }
+
+        p,
+        li {
+          code {
+            color: white;
+          }
+        }
+
+        blockquote {
+          background: #2a2a2a;
+        }
+
+        td,
+        th {
+          color: #888888;
+        }
+
       }
     }
   }
@@ -298,7 +320,7 @@
     }
 
     .post-title:hover {
-      color: #006CFF;
+      color: #216656;
     }
   }
 }
