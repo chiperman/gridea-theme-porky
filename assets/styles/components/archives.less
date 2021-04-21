@@ -22,16 +22,12 @@
   }
 }
 
-@media (max-width: 600px) {
-  .archives-container {
-    padding: 16px;
-  }
-}
+// --------------------------------------------- 夜间模式 ---------------------------------------------
 
 @media (prefers-color-scheme: dark) {
   .archives-container {
     .year {
-      color: #175bb7;
+      color: @green-theme;
     }
 
 
@@ -42,5 +38,13 @@
         color: #888888;
       }
     }
+  }
+}
+
+// --------------------------------------------- 移动适配 ---------------------------------------------
+
+@media (max-width: 600px) {
+  .archives-container {
+    padding: 16px;
   }
 }

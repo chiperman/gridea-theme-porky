@@ -3,4 +3,18 @@
   text-align: center;
   padding: 24px;
   color: @oc-gray-6;
+
+  a {
+    color: #1D4ED8;
+  }
+}
+
+// --------------------------------------------- 夜间模式 ---------------------------------------------
+
+@media (prefers-color-scheme: dark) {
+  .site-footer {
+    a {
+      color: @green-theme;
+    }
+  }
 }

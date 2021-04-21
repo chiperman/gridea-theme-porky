@@ -26,6 +26,20 @@
   }
 }
 
+// --------------------------------------------- 夜间模式 ---------------------------------------------
+
+@media (prefers-color-scheme: dark) {
+  .current-tag-container {
+    .tags {
+      color: @green-theme;
+      background-color: #374151;
+    }
+
+  }
+}
+
+// --------------------------------------------- 移动适配 ---------------------------------------------
+
 @media (max-width: 600px) {
   .current-tag-container {
     .tags {

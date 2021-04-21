@@ -5,15 +5,14 @@
     background: #FFF;
     padding: 24px;
     margin: 24px 0 0;
-    transition-duration: .15s;
+    transition-duration: 0.5s;
     box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 
 
-    &:hover {
-      transform: translate(0, -5px);
-      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-
-    }
+    // &:hover {
+    //   transform: translate(0, -5px);
+    //   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    // }
   }
 
   .post-tag {
@@ -118,7 +117,7 @@
       }
 
       a {
-        color: @main-color;
+        color: @green-theme;
         transition: all 0.3s;
 
         &:hover {
@@ -153,12 +152,69 @@
     float: right;
   }
 
-  .prev-page,
+  .prev-page:hover,
   .next-page:hover {
     background-color: #EFF6FF;
     border-radius: 5px;
   }
 }
+
+// --------------------------------------------- 夜间模式 ---------------------------------------------
+
+@media (prefers-color-scheme: dark) {
+  .post-container {
+
+    .article {
+      background: #242424;
+    }
+
+    .post {
+      .post-title {
+        color: #cecece;
+      }
+
+      .post-title:hover {
+        color: @green-theme;
+      }
+
+      .post-abstract {
+        color: #888888;
+      }
+
+      .post-info {
+        color: #888888;
+      }
+
+      .post-abstract a:hover {
+        color: @green-theme;
+        border-bottom: 1px dotted @green-theme;
+
+      }
+    }
+
+    .post-tag {
+      color: @green-theme;
+      background-color: #374151;
+
+      .tag {
+        color: @green-theme;
+      }
+    }
+  }
+
+  .pagination-container {
+    a {
+      color: #888888;
+    }
+
+    .prev-page:hover,
+    .next-page:hover {
+      background-color: #373737;
+    }
+  }
+}
+
+// --------------------------------------------- 移动适配 ---------------------------------------------
 
 @media (max-width: 600px) {
   .post-container {
@@ -188,49 +244,6 @@
       .post-feature-image {
         display: none;
       }
-    }
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .post-container {
-
-    .article {
-      background: #242424;
-    }
-
-    .post {
-      .post-title {
-        color: #cecece;
-      }
-
-      .post-title:hover {
-        color: red;
-      }
-
-      .post-abstract {
-        color: #888888;
-      }
-
-      .post-info {
-        color: #888888;
-      }
-
-      a.post:hover {
-        color: red
-      }
-    }
-  }
-
-  .pagination-container {
-    a {
-      color: #888888;
-    }
-
-    .prev-page,
-    .next-page:hover {
-      background-color: #373737;
-
     }
   }
 }

@@ -29,3 +29,18 @@
     margin-right: 8px;
   }
 }
+
+// --------------------------------------------- 夜间模式 ---------------------------------------------
+
+@media (prefers-color-scheme: dark) {
+  .tags-container {
+    .tag-list {
+      color: @green-theme;
+      background-color: #374151;
+    }
+
+    .tag {
+      color: @green-theme;
+    }
+  }
+}

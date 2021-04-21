@@ -99,5 +99,22 @@
     "value": "",
     "type": "input",
     "note": "链接地址"
+  },
+  {
+    "name": "DarkScheme",
+    "label": " 夜间主题色 ",
+    "group": " 夜间主题色 ",
+    "value": "DarkGreen",
+    "type": "select",
+    "options": [
+      {
+        "label": " 暗夜绿 ",
+        "value": "DarkGreen"
+      },
+      {
+        "label": " 深邃黄 ",
+        "value": "DarkYellow"
+      }
+    ]
   }]
 }
