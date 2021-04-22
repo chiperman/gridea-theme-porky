@@ -30,7 +30,7 @@ $ cd your-blog/themes
 $ git clone https://github.com/chiperman/gridea-theme-porky.git
 
 # 更新方法
-git pull origin master
+git pull origin main
 ```
 
 ## 💡特色
