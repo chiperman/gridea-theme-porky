@@ -11,8 +11,6 @@ const generateOverride = (params = {}) => {
   //   `
   // }
 
-
-
   return result
 }
 
