@@ -10,5 +10,8 @@
 		appKey: '<%=site.customConfig.APP_KEY %>',
 		avatar: '<%=site.customConfig.avatar %>',
 		visitor: true,
+		<% if (site.customConfig.hy) { %>
+                placeholder: '<%= site.customConfig.hy %>'
+        <% } %>
 	});
 </script>

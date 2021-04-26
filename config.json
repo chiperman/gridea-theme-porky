@@ -28,6 +28,14 @@
     "note": "从 Leancloud 上获得的 APP_KEY"
   },
   {
+    "name": "hy",
+    "label": "叙述",
+    "group": "valine评论系统",
+    "value": "",
+    "type": "input",
+    "note": "填写评论框默认提示"
+  },
+  {
     "name": "avatar",
     "label": "评论者头像",
     "group": "valine评论系统",
@@ -117,5 +125,13 @@
         "value": "DarkYellow"
       }
     ]
+  },
+  {
+    "name": "ga",
+    "label": "跟踪 ID",
+    "group": "谷歌统计",
+    "value": "",
+    "type": "input",
+    "note": "UA-xxxxxxxxx-x"
   }]
 }
