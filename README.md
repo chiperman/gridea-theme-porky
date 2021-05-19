@@ -35,25 +35,29 @@ git pull origin main
 
 ## 💡特色
 
-- 支持 valine 评论
+- 支持 Valine 评论、文章阅读量
 - 支持社交功能
 - 支持亮色 / 暗色模式自动切换
 - 支持移动端页面适配
 - 支持 哔哩哔哩 `<iframe>` 标签
 
-## :sparkles:新增
-
-- 文章置顶 Top 标识
-
 ## 📜待办
 
-- [ ] 双主题色
-- [ ] 支持谷歌统计
+- [x] 文章置顶 Top 标识
+- [x] 支持谷歌统计
+
+- [ ] 多主题色
+- [ ] 代码复制
 - [ ] 文章搜索功能（不确定是否支持）
 - [ ] 增加字体
 - [ ] 使用 CDN 加速图片等资源
 - [ ] More is coming…
 
+## :bug:BUG
+
+- [ ] 移动端顶部样式
+- [ ] 阅读量问题（如果没有使用 Valine 评论则会出现阅读量为 0 ）
+
 ## 📎参考
 
-主题参考 [spencerwoo 的博客](https://blog.spencerwoo.com/)
+主题参考：[spencerwoo 的博客](https://blog.spencerwoo.com/)
