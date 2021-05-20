@@ -2,9 +2,11 @@
 
 porky 是一款极简设计、干净、响应式的博客主题。
 
-主要满足主要满足个人使用。
+主要满足个人使用。
 
-本主题预览：[网站](https://chiperman.github.io/)
+[TOC]
+
+## 💻 主题预览：[网站](https://chiperman.github.io/)
 
 ![porky-light](https://cdn.jsdelivr.net/gh/chiperman/Photos-storage@master/porky/porky-light.png)
 
@@ -12,7 +14,7 @@ porky 是一款极简设计、干净、响应式的博客主题。
 
 ![porky-dark](https://cdn.jsdelivr.net/gh/chiperman/Photos-storage@master/porky/mobile.jpg)
 
-## 🔧安装方法
+## 🔧 安装方法
 
 方法一：
 
@@ -33,7 +35,7 @@ $ git clone https://github.com/chiperman/gridea-theme-porky.git
 git pull origin main
 ```
 
-## 💡特色
+## 💡 特色
 
 - 支持 Valine 评论、文章阅读量
 - 支持社交功能
@@ -41,7 +43,13 @@ git pull origin main
 - 支持移动端页面适配
 - 支持 哔哩哔哩 `<iframe>` 标签
 
-## 📜待办
+## ✨ 更新
+
+### 2021-5-20
+
+- 邮件图标
+
+## 📜 待办
 
 - [x] 文章置顶 Top 标识
 - [x] 支持谷歌统计
@@ -51,13 +59,12 @@ git pull origin main
 - [ ] 文章搜索功能（不确定是否支持）
 - [ ] 增加字体
 - [ ] 使用 CDN 加速图片等资源
-- [ ] More is coming…
 
-## :bug:BUG
+## :bug: BUG
 
 - [ ] 移动端顶部样式
 - [ ] 阅读量问题（如果没有使用 Valine 评论则会出现阅读量为 0 ）
 
-## 📎参考
+## 📎 感谢
 
 主题参考：[spencerwoo 的博客](https://blog.spencerwoo.com/)
