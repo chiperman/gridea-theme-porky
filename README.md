@@ -4,7 +4,17 @@ porky 是一款极简设计、干净、响应式的博客主题。
 
 主要满足个人使用。
 
-[TOC]
+- [Gridea-theme-porky](#gridea-theme-porky)
+  * [💻 主题预览：[网站](https://chiperman.github.io/)](#-------------https---chipermangithubio--)
+  * [🔧 安装方法](#-------)
+  * [💡 特色](#-----)
+  * [✨ 更新](#----)
+    + [2021-5-20](#2021-5-20)
+  * [📜 待办](#-----)
+  * [:bug: BUG](#-bug--bug)
+  * [📎 感谢](#-----)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ## 💻 主题预览：[网站](https://chiperman.github.io/)
 
