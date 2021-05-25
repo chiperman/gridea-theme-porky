@@ -4,18 +4,6 @@ porky 是一款极简设计、干净、响应式的博客主题。
 
 主要满足个人使用。
 
-- [Gridea-theme-porky](#gridea-theme-porky)
-  * [💻 主题预览：[网站](https://chiperman.github.io/)](#-------------https---chipermangithubio--)
-  * [🔧 安装方法](#-------)
-  * [💡 特色](#-----)
-  * [✨ 更新](#----)
-    + [2021-5-20](#2021-5-20)
-  * [📜 待办](#-----)
-  * [:bug: BUG](#-bug--bug)
-  * [📎 感谢](#-----)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 ## 💻 主题预览：[网站](https://chiperman.github.io/)
 
 ![porky-light](https://cdn.jsdelivr.net/gh/chiperman/Photos-storage@master/porky/porky-light.png)
@@ -70,7 +58,7 @@ git pull origin main
 - [ ] 增加字体
 - [ ] 使用 CDN 加速图片等资源
 
-## :bug: BUG
+## 🐛 BUG
 
 - [ ] 移动端顶部样式
 - [ ] 阅读量问题（如果没有使用 Valine 评论则会出现阅读量为 0 ）
