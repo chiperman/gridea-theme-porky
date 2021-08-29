@@ -2,7 +2,7 @@
   "name": "porky",
   "version": "0.1.0",
   "author": "chiperman",
-  "repository": "https://github.com/chiperman/gridea-theme-porky",
+  "repository": "//github.com/chiperman/gridea-theme-porky",
   "customConfig": [{
     "name": "valine",
     "label": "是否开启 valine 评论系统",
@@ -75,7 +75,7 @@
         "value": "hide"
       }
     ],
-    "note": "可在 https://valine.js.org/avatar.html 页面查看详情"
+    "note": "可在 //valine.js.org/avatar.html 页面查看详情"
   },
   {
     "name":"email",

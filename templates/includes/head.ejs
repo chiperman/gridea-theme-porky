@@ -1,6 +1,7 @@
 <meta charset="utf-8" />
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
 <title><%= siteTitle %></title>
 <link rel="shortcut icon" href="<%= themeConfig.domain %>/favicon.ico">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -13,17 +14,17 @@
 
 
 <!-- iconfont -->
-<link href="https://at.alicdn.com/t/font_2463772_glcffdg0qau.css" rel="stylesheet" />
+<link href="//at.alicdn.com/t/font_2463772_glcffdg0qau.css" rel="stylesheet" />
 
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="//cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 <!-- DEMO JS -->
-<script src="media/scripts/index.js"></script>
+<!-- <script src="media/scripts/index.js"></script> -->
 
 <% if (site.customConfig.ga) { %>
-<script async src="https://www.googletagmanager.com/gtag/js?id=<%= site.customConfig.ga %>"></script>
+<script async src="//www.googletagmanager.com/gtag/js?id=<%= site.customConfig.ga %>"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
 

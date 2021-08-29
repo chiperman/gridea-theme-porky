@@ -1,4 +1,4 @@
-<script src='https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
+<script src='//cdn.jsdelivr.net/npm/valine/dist/Valine.min.js'></script>
 
 
 <div id="vcomments"></div>
@@ -10,8 +10,13 @@
 		appKey: '<%=site.customConfig.APP_KEY %>',
 		avatar: '<%=site.customConfig.avatar %>',
 		visitor: true,
-		<% if (site.customConfig.hy) { %>
-                placeholder: '<%= site.customConfig.hy %>'
-        <% } %>
+		<
+		%
+		if (site.customConfig.hy) {
+			%
+			>
+			placeholder: '<%= site.customConfig.hy %>' <
+				%
+		} % >
 	});
 </script>
