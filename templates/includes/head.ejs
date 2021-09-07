@@ -1,30 +1,35 @@
 <meta charset="utf-8" />
-<meta name="description" content="" />
+<meta name="description" content="<%= themeConfig.siteDescription %>" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+<meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+<meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+<meta HTTP-EQUIV="expires" CONTENT="0">
 <title><%= siteTitle %></title>
-<link rel="shortcut icon" href="<%= themeConfig.domain %>/favicon.ico">
-<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link rel="shortcut icon" href="<%= themeConfig.domain %>/favicon.ico?v=<%= site.utils.now %>">
+
 <link rel="stylesheet" href="<%= themeConfig.domain %>/styles/main.css">
 <link rel="apple-touch-icon" href="<%= themeConfig.domain %>/favicon.ico">
 <meta name="apple-mobile-web-app-title" content="XiaoX 博客">
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-
 <!-- iconfont -->
 <link href="//at.alicdn.com/t/font_2463772_glcffdg0qau.css" rel="stylesheet" />
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
+<% if (typeof commentSetting !== 'undefined' && commentSetting.showComment) { %>
+<% if (commentSetting.commentPlatform === 'gitalk') { %>
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+<% } %>
 
-<script src="//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="//cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
-
-<!-- DEMO JS -->
-<!-- <script src="media/scripts/index.js"></script> -->
+<% if (commentSetting.commentPlatform === 'disqus') { %>
+<link rel="stylesheet" href="https://unpkg.com/disqusjs@1.1/dist/disqusjs.css" />
+<% } %>
+<% } %>
 
 <% if (site.customConfig.ga) { %>
-<script async src="//www.googletagmanager.com/gtag/js?id=<%= site.customConfig.ga %>"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=<%= site.customConfig.ga %>"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
 
