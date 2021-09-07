@@ -78,6 +78,14 @@
     "note": "可在 //valine.js.org/avatar.html 页面查看详情"
   },
   {
+    "name": "visitCount",
+    "label": "启用 valine 的阅读量",
+    "group": "valine评论系统",
+    "type": "switch",
+    "value": false,
+    "note": "如需要启用 valine 的阅读量，请去 Leancloud 创建相关字段"
+  },
+  {
     "name":"email",
     "label":"email",
     "group":"社交",

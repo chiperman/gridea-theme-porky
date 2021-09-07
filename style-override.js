@@ -11,6 +11,14 @@ const generateOverride = (params = {}) => {
   //   `
   // }
 
+  if (typeof params.visitCount !== 'undefined' && !params.visitCount) {
+    result += `
+    .leancloud_visitors{
+        display:none;
+      }
+    `
+  }
+
   return result
 }
 
